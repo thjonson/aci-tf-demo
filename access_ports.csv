@@ -1,0 +1,8 @@
+ipg_name,description,leaf_id,port,aaep,link_level,cdp,lldp,port_sec,pc_policy,vlans
+serverA,Webserver,101,15,test_aaep,10g_auto,cdp_enabled,lldp_enabled,off,,"0101"
+serverB,DBServer,101,12,test_aaep,10g_auto,cdp_disabled,lldp_enabled,off,,"0101,0102"
+vpc_server,,101-102,14,test_aaep,10g_auto,cdp_enabled,lldp_enabled,off,lacp_active,"0101"
+serverC,DBServer,101,16,test_aaep,10g_auto,cdp_disabled,lldp_enabled,off,,"0101,0102"
+serverD,DBServer,101,17,test_aaep,10g_auto,cdp_disabled,lldp_enabled,off,,"0101,0102"
+vpc_serverB,,101-102,18,test_aaep,10g_auto,cdp_enabled,lldp_enabled,off,lacp_active,"0101"
+serverE,DBServer,101,19,test_aaep,10g_auto,cdp_disabled,lldp_enabled,off,,"0101,0102"

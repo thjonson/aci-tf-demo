@@ -1,0 +1,4 @@
+name,vrf,l3_domain_name,node_profile,nodes,router_id,port,vlan,address,peer_address,peer_address2,peer_as,local_as,ext_subnets
+vrfA,vrfA,DC_L3Out,NodeProf,"101",100.101.255.1,1/2,101,100.101.0.1/24,100.101.0.2,100.101.0.3,65111,65101,"100.101.0.0/16,101.101.0.0/16,100.101.250.0/24"
+vrfB,vrfB,DC_L3Out,NodeProf,"101",100.102.255.1,1/2,102,100.102.0.1/24,100.102.0.2,100.101.0.3,65112,65102,"100.102.0.0/16"
+vrfA2,vrfA,DC_L3Out,NodeProf,"101",100.101.255.1,1/2,201,100.201.0.1/24,100.201.0.2,100.201.0.3,65211,65201,"100.201.250.0/24"

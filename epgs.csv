@@ -1,0 +1,7 @@
+key,vrf,l2_unk_ucast,arp_flood,unicast_route,subnet_needed,bd_subnet,l3_out,app_prof
+0101,vrfA,proxy,no,yes,true,100.101.1.1/24,vrfA-l3out,Legacy
+0102,vrfB,proxy,no,yes,true,100.102.1.1/24,vrfB-l3out,Legacy
+0103,vrfC,proxy,no,yes,true,100.103.1.1/24,vrfB-l3out,Legacy
+0104,vrfD,proxy,no,yes,true,100.104.1.1/24,vrfB-l3out,Legacy
+0105,vrfE,proxy,no,yes,true,100.105.1.1/24,vrfB-l3out,Legacy
+0106,vrfF,proxy,no,yes,true,100.106.1.1/24,vrfB-l3out,Legacy
